@@ -15,14 +15,14 @@ if [ "$#" -eq 0 ]; then
 fi
 
 # Nama folder hasil clone
-clone_folder="multiprocessing_video_source_modul"
+clone_folder="smartcube-cli"
 
 # Cek argumen
 while [ "$#" -gt 0 ]; do
     case "$1" in
         --init )
             # Tentukan URL repositori Git
-            repo_url="https://github.com/PPI-Capstone-Project/multiprocessing_video_source_modul.git"
+            repo_url="https://github.com/PPI-Capstone-Project/smartcube-cli.git"
 
             
             # Lakukan git clone

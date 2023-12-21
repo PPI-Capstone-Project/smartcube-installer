@@ -3,8 +3,8 @@
 # Function untuk menampilkan pesan help
 show_help() {
     echo "Usage: $0 [--init|--start]"
-    echo "  --init    : Menjalankan skrip untuk inisialisasi."
-    echo "  --start   : Menjalankan skrip untuk memulai dengan mencetak 'Hello, World!'."
+    echo "  --init    : Menjalankan instalasi dependensi dan env."
+    echo "  --start   : Menjalankan smartcube-cli edge intelligence analytic software"
     exit 1
 }
 
